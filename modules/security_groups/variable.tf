@@ -1,25 +1,12 @@
-variable "sg_name" {
+variable "env" {
   type = string
 }
 
-variable "instance_type" {
-  type    = string
-  default = "t3.micro"
-}
-
-variable "subnet_id" {
+variable "vpc_id" {
   type = string
 }
 
-variable "security_group_ids" {
-  type = list(string)
-}
-
-variable "user_data" {
-  type    = string
-  default = ""
-}
-
-variable "name" {
-  type = string
+variable "db_port" {
+  type    = number
+  default = 5432
 }
