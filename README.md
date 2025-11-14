@@ -14,18 +14,18 @@ Deploy a **fully scalable web application** with:
 
 ## Architecture
 folder (main,outputs,variable)
-    ├── modules/
-    │   ├── network/vpc/
-    │   ├── asg/
-    │   ├── alb/
-    │   ├── rds/
-    │   └── sg/
-        └── ec2/
-    ├── prod/
-    │   ├── main.tf
-    │   ├── outputs.tf
-    │   └── variable.tf
-    └── README.md
+    -- modules/
+           - network/vpc/
+           - asg/
+           - alb/
+           - rds/
+           - sg/
+           - ec2/
+    -- prod/
+           - main.tf
+           -outputs.tf
+           -variable.tf
+    -- README.md
 
 Features
 
